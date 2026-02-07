@@ -1,26 +1,26 @@
 class Offworld < Formula
    desc "Offworld CLI - Generate references for your dependencies"
    homepage "https://offworld.sh"
-   version "0.3.2"
+   version "0.3.3"
    license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/oscabriel/offworld/releases/download/v0.3.2/ow-darwin-arm64.tar.gz"
-      sha256 "873ae3fbdf739e3d9041930cbbd22ec03131298101aa382da2ae29c27e5f87bb"
+      url "https://github.com/oscabriel/offworld/releases/download/v0.3.3/ow-darwin-arm64.tar.gz"
+      sha256 "3476076b5b7988f617b127c2bfa7b0c3cf5f9b06c5c0a855affff933017cb923"
     else
-      url "https://github.com/oscabriel/offworld/releases/download/v0.3.2/ow-darwin-x64.tar.gz"
-      sha256 "cacf4e5984e29b3d85923e980c7fd620fab80574dd5de5b26e6f038c99a6c7ed"
+      url "https://github.com/oscabriel/offworld/releases/download/v0.3.3/ow-darwin-x64.tar.gz"
+      sha256 "c2faa1f79578562c8c25fa74c9867b111ededd29ffc7a76a5dd21cbfcd7e0935"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/oscabriel/offworld/releases/download/v0.3.2/ow-linux-arm64.tar.gz"
-      sha256 "dfe03b55197b31ba56849325b4413993e58378e76cec55c958208109a03dbe7b"
+      url "https://github.com/oscabriel/offworld/releases/download/v0.3.3/ow-linux-arm64.tar.gz"
+      sha256 "c53e5b85b5f3259c0861d21183e75f3269121b31d332710f4c4439104d3c1837"
     else
-      url "https://github.com/oscabriel/offworld/releases/download/v0.3.2/ow-linux-x64.tar.gz"
-      sha256 "ceedc693b0dd740ff60e90c15d676556a250c4448dac6d9b247f1fb2f7c7f84c"
+      url "https://github.com/oscabriel/offworld/releases/download/v0.3.3/ow-linux-x64.tar.gz"
+      sha256 "9f754671dff37b84c8c326f29ea48a61ec1566508b6fcfc1b95cdee8d9443004"
     end
   end
 
